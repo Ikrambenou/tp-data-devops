@@ -30,7 +30,7 @@ def transformer(df):
 
     """Nettoie les données et calcule le montant de chaque vente.""" 
 
-    #df = df.drop_duplicates() 
+    df = df.drop_duplicates() 
 
     df = df.dropna(subset=["quantite", "prix_unitaire"]) 
 
