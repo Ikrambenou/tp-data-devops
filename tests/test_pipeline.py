@@ -1,12 +1,7 @@
-import pandas as pd 
-
-  
+import pandas as pd
 
 from pipeline import agreger_par_categorie, agreger_par_ville, transformer
 
-  
-
-  
 
 def donnees_exemple(): 
 
